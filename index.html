@@ -10,7 +10,11 @@
 			height:550px;
 			background-position: center;
 			background-size: cover;
-			margin-top: 62px;
+			margin-top: -22px;
+		}
+		.banner-lg{
+			height: 700px!important;
+			margin-top: 90px;
 		}
 		.banner-header{
 			width: 100%;
@@ -86,7 +90,7 @@
 	</style>
 </head>
 <body id="body" style="display:none">
-	<nav class="navbar navbar-fixed-top">
+	<nav class="navbar">
 	  <div class="container">
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -150,33 +154,13 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-md-12">
-				<div class="col-md-9">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-				<div class="col-md-3">
-					<i class="icon icon-lg ion-clipboard"></i>
-				</div>
-			</div>
-			<div class="col-md-12">
-				<div class="col-md-3">
-					<i class="icon icon-lg ion-lock-combination"></i>
-				</div>
-				<div class="col-md-9">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
+			<div class="col-md-4 col-md-offset-4">
+				<a class="hover-click" onclick="move($('#banner2'), 1500, 0)"><i class="icon icon-nav ion-ios-arrow-down"></i></a>
 			</div>
 		</div>
+	</div>
+	<div class="banner banner-lg" id="banner2" style="background-image:url('img/fields.jpg')">
+
 	</div>
 	<div class="footer">
 		<div class="container">
